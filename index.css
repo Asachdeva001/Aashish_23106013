@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+home{
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100%;
+    height: 97px;
+    background-color: #A99DEC;
+    display: inline-flex;
+}
+
+.logo{
+    width: 276px;
+    height: 70px;
+    margin: 4px 490px 23px 29px;
+}
+
+.nav{
+    margin: 35px 0px;
+}
+
+.nav li{
+    font-size: large;
+    list-style-type: none;
+    display: inline;
+    padding: 40px 45px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.home{
+    width: 100%;
+    height: 605px;
+}
+
+.sec{
+    width: 100%;
+    height: 115px;
+    background-color: #A69DEC;
+    display: inline-flex;
+}
+
+.sec p{
+    width: 370px;
+    height: 70px;
+    font-size: 20px;
+    margin: 15px 300px 15px 25px;
+}
+
+.sec h2{
+    margin: 40px 20px;
+}
+
+.sec .email{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: lightblue;
+    margin-top: 40px;
+}
+
+.sec .btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: lightblue;
+    margin-top: 40px
+}
+
+.mid{
+    background-color: #37383C;
+    width: 100%;
+    height: 380px;
+    display: flex;
+}
+
+.mid div{
+    margin: 30px 20px;
+    width: 200px;
+}
+
+
+.mid ul li{
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+}
+.mid .sub1{
+    margin-left: 50px;
+}
+.mid .sub6{
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sub6 ul li{
+    display: inline;
+}
+
+.mid p{
+    color: white;
+}
+.end{
+    width: 100%;
+    height: 35px;
+    background-color: #22242A;
+}
+
+.end p{
+    color: white;
+    padding-top: 10px;
+    margin-left: 50px;
+}
